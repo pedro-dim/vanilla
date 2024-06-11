@@ -1,0 +1,72 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+logs
+*.log
+logs/**/*.log
+
+# Diretórios temporários
+tmp/
+temp/
+
+# Diretórios de compilação/geração
+dist/
+build/
+out/
+coverage/
+.cache/
+
+# Configurações de IDEs e editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Testes
+coverage/
+*.lcov
+.jest/
+.nyc_output/
+
+# Arquivos de ambiente
+.env
+.env.test
+.env.development
+.env.production
+.env.local
+.env.*.local
+
+# Dependências do sistema
+*.swp
+*.lock
+*.lock.json
+
+# Arquivos de controle de versão
+*.orig
+
+# Arquivos de pacotes
+*.tgz
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# Configurações do ESLint e Prettier
+.eslintcache
+.prettiercache
+
+# Compiladores de Babel e Webpack
+.cache-loader
+.parcel-cache
+.sass-cache

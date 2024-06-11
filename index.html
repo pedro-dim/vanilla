@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- <script type="module" src="./js/validator.js"/>
+    <script type="module" src="./js/promisse.js"/> -->
+   
+</head>
+<body>
+    
+
+<h1>Test vanilla</h1>
+
+<form action="" name="myForm" method="get" enctype="multipart/form-data" id="myForm" >
+    <button type="submit" class="p-2 bg-blue-300 text-white rounded-md hover:bg-blue-400" name="btn" value="btn value" id="btn">Click</button>
+
+</form>
+
+<script>
+
+const submit = document.querySelector('#myForm')
+
+const myFormData = new formData(submit)
+
+
+
+</script>
+</body>
+</html>
